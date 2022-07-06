@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Wheater-react/static/css/main.61026ff9.css",
+    "main.js": "/Wheater-react/static/js/main.56a898fc.js",
+    "static/js/787.74e6b0f6.chunk.js": "/Wheater-react/static/js/787.74e6b0f6.chunk.js",
+    "static/media/ibg-night.jpg": "/Wheater-react/static/media/ibg-night.e58c138ce5b03a0d54c1.jpg",
+    "static/media/ibg-sun.jpg": "/Wheater-react/static/media/ibg-sun.dda87ce518c3a21f5e91.jpg",
+    "index.html": "/Wheater-react/index.html",
+    "static/media/windy.svg": "/Wheater-react/static/media/windy.89a987bf0cb1b4ab3ec57b15e0f910a1.svg",
+    "static/media/humidity.svg": "/Wheater-react/static/media/humidity.eb0344d8a17cd3470233bdf6c404bbc6.svg",
+    "main.61026ff9.css.map": "/Wheater-react/static/css/main.61026ff9.css.map",
+    "main.56a898fc.js.map": "/Wheater-react/static/js/main.56a898fc.js.map",
+    "787.74e6b0f6.chunk.js.map": "/Wheater-react/static/js/787.74e6b0f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61026ff9.css",
+    "static/js/main.56a898fc.js"
+  ]
+}
