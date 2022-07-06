@@ -1,38 +1,80 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+
+.App{
+  --textColor: black;
+  --textDarkColor: rgba(0, 0, 0, 0.65); 
+  --urlPicture: url("./img/ibg-sun.jpg");
+}
+.App.dark{
+  --textColor: white;
+  --textDarkColor: rgba(255, 255, 255, 0.65); 
+  --urlPicture: url("./img/ibg-night.jpg");
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
+  background-image:var(--urlPicture);
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items:center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 30px 20px 30px 20px;
+}
+header{
+  display: flex;
+    flex-wrap: wrap;
+    width: 430px;
+    justify-content: center;
+    gap: 7px 10px;
+    margin-bottom: 20px;
+}
+.header__btn{
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid var(--textColor);
+  padding: 3px 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+}
+.input__city{
+  padding: 5px;
+  border-radius: 6px;
+  width: 270px;
+  
+
+}
+.search__btn{
+  padding: 7px 12px;
+
+}
+.geo_btn{
+  
+  gap: 8px; 
+
+}
+.geo_btn img{
+  width: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.main__section {
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.bottom__section {
+}
+
+
+@media (max-width:450px){
+  .App {
+      padding: 30px 10px 20px 10px;
   }
 }
