@@ -54,7 +54,7 @@ function App() {
   return (
     <div className={isDay ? "App" : "App dark"} >
       <header>
-      <input type="text" className="input__city" value={value} onChange={e => setValue(e.target.value)} placeholder="Введите название города по английский" />
+      <input type="text" className="input__city" value={value} onChange={e => setValue(e.target.value)} placeholder="Введите название города латиницей" />
       <button className="header__btn search__btn " onClick={() => setCity(value)}>Найти город</button>
       <br />
       <button className="geo_btn  header__btn" onClick={() => getDataLocation()}>  <img src={geoImg} alt="geo" /> <span>По местоположению</span></button>
